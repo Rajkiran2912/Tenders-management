@@ -12,9 +12,12 @@ public static void main(String[] args)throws ClassNotFoundException, SQLExceptio
 				conn=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","system","Raj@1996");  //connect to database//
 				if(conn!=null) 
 					    System.out.println("Connected");
+				
 			    else
+
 						System.out.println("NotConnected");
 				conn.close();
+
 }
 }
 						
